@@ -1,0 +1,134 @@
+@import url("https://use.typekit.net/kwj4ujf.css");
+
+body {
+  background-color: #FF3700;
+}
+
+.reveal h1 {
+  font-size: 3em;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: canada-type-gibson, Gibson, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-weight: 600;
+}
+
+.reveal h3 {
+  /*color: rgba(255, 255, 255, 0.7);*/
+}
+
+.reveal p, .reveal li {
+  color: white;
+  font-family: canada-type-gibson, Gibson, BlinkMacSystemFont, sans-serif;
+}
+
+.reveal .controls {
+  color: #FF3700;
+}
+
+.reveal .progress {
+  color: #FF3700;
+}
+
+.reveal a {
+  color: #FF3700;
+}
+
+.reveal a:hover {
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  width: 75px;
+  z-index: 9999;
+}
+
+.reveal .controls {
+  left: 120px;
+  right: auto;
+}
+
+.reveal .slide-background.stack .slide-background:not(:nth-child(2)) {
+  background-color: white;
+  text-align: left;
+}
+
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) {
+  /*margin-left: -10%;
+  margin-top: -10%;*/
+  text-align: left;
+}
+
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) p,
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) li,
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) h2,
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) h3,
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) h4 {
+  color: black;
+  font-family: canada-type-gibson, Gibson, BlinkMacSystemFont, sans-serif;
+}
+
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) * {
+}
+
+.reveal .slides 
+> section.stack 
+> section:not(:first-child) h1 {
+  font-size: 48pt;
+  color: white;
+  background-color: #FF3700;
+  padding: 5px 20px;
+  display: inline-block;
+}
+
+
+.reveal code, .reveal pre {
+  font-family: "Source Code Pro", monospace;
+}
+
+/*.reveal .slides 
+> section.stack 
+> section:not(:first-child) h1::after {
+  width: 400px;
+  height: 80px;
+  position: absolute;
+  background-color: #FF3700;
+  content: '';
+  z-index: -1;
+  left: 0;
+}
+*/
+
+
+

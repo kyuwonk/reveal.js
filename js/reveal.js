@@ -94,10 +94,10 @@
 
 			// Add the current slide number to the URL hash so that reloading the
 			// page/copying the URL will return you to the same slide
-			hash: false,
+			hash: true,
 
 			// Push each slide change to the browser history.  Implies `hash: true`
-			history: false,
+			history: true,
 
 			// Enable keyboard shortcuts for navigation
 			keyboard: true,
@@ -258,7 +258,7 @@
 			pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
 
 			// Prints each fragment on a separate slide
-			pdfSeparateFragments: true,
+			pdfSeparateFragments: false,
 
 			// Offset used to reduce the height of content within exported PDF pages.
 			// This exists to account for environment differences based on how you
