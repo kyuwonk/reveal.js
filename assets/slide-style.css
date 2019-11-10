@@ -36,6 +36,10 @@ body {
   font-family: canada-type-gibson, Gibson, BlinkMacSystemFont, sans-serif;
 }
 
+.smaller {
+  font-size: 0.8em
+}
+
 .reveal .controls {
   color: #FF3700;
 }
